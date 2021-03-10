@@ -1,6 +1,6 @@
 {
   "name": "@smoothjs/config",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "Config management for SmoothJS framework.",
   "main": "./build/index.js",
   "types": "./build/index.d.ts",

@@ -1,0 +1,65 @@
+{
+  "name": "@smoothjs/config",
+  "version": "0.1.0",
+  "description": "Config management for SmoothJS framework.",
+  "main": "./build/index.js",
+  "types": "./build/index.d.ts",
+  "scripts": {
+    "test": "mocha --require ts-node/register \"./tests/*.spec.ts\" \"./tests/**/*.spec.ts\"",
+    "build": "rimraf build && tsc -p tsconfig.json",
+    "format": "prettier --write .",
+    "lint": "eslint . --ext=.ts",
+    "commit": "git-cz",
+    "release": "np"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "contributors": [
+    "AbdallahMohammed <abdallah.r660@gmail.com>"
+  ],
+  "license": "MIT",
+  "files": [
+    "build/"
+  ],
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
+  "np": {
+    "contents": ".",
+    "anyBranch": false
+  },
+  "nyc": {
+    "exclude": [
+      "test"
+    ],
+    "extension": [
+      ".ts"
+    ]
+  },
+  "dependencies": {
+    "typescript-ioc": "^3.2.2",
+    "yamljs": "0.3.0"
+  },
+  "devDependencies": {
+    "@types/require-all": "3.0.1",
+    "@types/mocha": "7.0.2",
+    "@types/node": "10.17.24",
+    "copyfiles": "2.4.1",
+    "japa": "3.1.1",
+    "mocha": "8.2.1",
+    "prettier": "2.2.1",
+    "rimraf": "2.6.3",
+    "ts-node": "9.0.0",
+    "np": "7.4.0",
+    "typescript": "4.0.7",
+    "eslint": "7.21.0",
+    "eslint-config-prettier": "7.2.0",
+    "eslint-plugin-prettier": "3.3.1"
+  }
+}

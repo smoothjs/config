@@ -13,9 +13,6 @@
   <a href="https://github.com/smoothjs/config/actions">
     <img src="https://github.com/smoothjs/config/workflows/Test/badge.svg" alt="Build Status">
   </a>
-  <a href="https://codecov.io/github/smoothjs/config">
-    <img src="https://codecov.io/gh/smoothjs/config/branch/master/graphs/badge.svg" alt="Code coverage">
-  </a>
   <a href="https://github.com/smoothjs/config/commits/master">
     <img src="https://img.shields.io/github/commit-activity/y/smoothjs/config.svg" alt="Commit activity">
   </a>

@@ -1,6 +1,6 @@
 {
   "name": "@smoothjs/config",
-  "version": "0.1.2",
+  "version": "0.1.0",
   "description": "Config management for SmoothJS framework.",
   "main": "./build/index.js",
   "types": "./build/index.d.ts",
@@ -43,23 +43,24 @@
     ]
   },
   "dependencies": {
-    "typescript-ioc": "^3.2.2",
-    "yamljs": "0.3.0"
+    "lodash": "^4.17.21",
+    "typescript-ioc": "^3.2.2"
   },
   "devDependencies": {
-    "@types/require-all": "3.0.2",
+    "@types/lodash": "^4.14.178",
     "@types/mocha": "8.2.2",
     "@types/node": "14.17.1",
+    "@types/require-all": "3.0.2",
     "copyfiles": "2.4.1",
+    "eslint": "7.27.0",
+    "eslint-config-prettier": "8.3.0",
+    "eslint-plugin-prettier": "3.4.0",
     "japa": "3.1.1",
     "mocha": "8.4.0",
+    "np": "7.5.0",
     "prettier": "2.3.0",
     "rimraf": "3.0.2",
     "ts-node": "10.0.0",
-    "np": "7.5.0",
-    "typescript": "4.2.3",
-    "eslint": "7.27.0",
-    "eslint-config-prettier": "8.3.0",
-    "eslint-plugin-prettier": "3.4.0"
+    "typescript": "4.2.3"
   }
 }

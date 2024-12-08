@@ -50,7 +50,7 @@ jobs:
           POSTGRES_DB: test
 
       mongodb:
-        image: mongo:3.4.1
+        image: mongo:3.7.9
         ports:
           - 27017:27017
 

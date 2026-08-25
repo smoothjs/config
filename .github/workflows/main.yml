@@ -31,7 +31,7 @@ jobs:
           MYSQL_DATABASE: test
 
       mariadb:
-        image: mariadb:10.3.22
+        image: mariadb:10.11.19
         ports:
           - 3307:3306
         env:
